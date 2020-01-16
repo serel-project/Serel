@@ -1,26 +1,73 @@
+#Banner_principal {
+    background-image: url("../assets/img/Grupo\ 155.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+}
+
+/*FOOTER*/
+footer{
+    background-image: url("../assets/img/bg-footer.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 735px;
+    position: relative;
+    font-family: Source Sans Pro;
+    color: #fff;
+}
+
+footer h3{
+    font-weight: 500;
+}
+
 .footer-bar{
-  width: 100%;
-  height: 80px;
-  background-color: #0C2E41;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: #0C2E41;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer-barr-content{
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  align-items: center;
+ 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+   
 }
 
 .footer-barr-content p{
-  margin-bottom: 0px;
-  margin-right: 10px;
-  margin-left: 10px;
-  font-family: Source Sans Pro;
-  font-size: 24px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 24px;
+ }
+
+.icons-footer{
+    margin-right: 15px;;
 }
+
+.group-end{
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+
+.group-end p span{
+   font-weight: bold;
+   
+}
+
+.group-end p{
+    font-weight: 500;
+  
+ }
+/*FIM FOOTER*/
 
 #Banner_principal {
   background-image: url("../assets/img/BannerPrincipal.svg");
