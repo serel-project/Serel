@@ -1,17 +1,17 @@
 .footer-bar{
-width: 100%;
-height: 80px;
-background-color: #0C2E41;
-display: flex;
-justify-content: center;
+  width: 100%;
+  height: 80px;
+  background-color: #0C2E41;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-barr-content{
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .footer-barr-content p{
@@ -23,9 +23,8 @@ justify-content: center;
 }
 
 #Banner_principal {
-        background-image: url("../assets/img/BannerPrincipal.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100%;
-        
+  background-image: url("../assets/img/BannerPrincipal.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 100%;
 }
