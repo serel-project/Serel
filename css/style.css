@@ -174,3 +174,16 @@ footer h3{
   text-align: center;
   padding-left: 0;
 }
+
+.quemSomos img {
+  width: 410px;
+}
+
+.quemP {
+  background-color: #fff;
+}
+
+#quemH1 {
+  text-align: center;
+  color: #38B6AB;
+}
