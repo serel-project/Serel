@@ -24,7 +24,31 @@
 
 #Banner_principal {
   background-image: url("../assets/img/BannerPrincipal.svg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 107%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  color: #38B6AB;
+}
+
+#btn_menu {
+  border: none!important;
+}
+
+#btn_acesso {
+  background-color: #38B6AB;
+  border-radius: 0px 0px 10px 10px;
+  float: right;
+  margin-right: 20%;
+  border: none;
+  color: #fff;
+  padding-right: 10px;
+  padding-left: 10px;
 }
