@@ -15,6 +15,7 @@ footer{
     position: relative;
     font-family: Source Sans Pro;
     color: #fff;
+    display: flex;
 }
 
 footer h3{
