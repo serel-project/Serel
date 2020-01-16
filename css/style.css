@@ -70,13 +70,6 @@ footer h3{
  }
 /*FIM FOOTER*/
 
-#Banner_principal {
-  background-image: url("../assets/img/BannerPrincipal.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 107%;
-}
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -125,9 +118,18 @@ footer h3{
 #navbarToggleExternalContent {
   position: absolute;
   right: 22%;
-  background-color: #38B6AB;
-  color: #fff;
+  background-color: #fff;
+  color: #38B6AB;
+  border: solid #38B6AB;
+  border-radius: 10px;
+  z-index: 1;
+  width: 400px;
+  height: 600px;
 }
 #menuab {
   list-style: none;
+  font-size: 30px;
+  line-height: 7rem;
+  text-align: center;
+  padding-left: 0;
 }
