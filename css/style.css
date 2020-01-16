@@ -99,3 +99,25 @@ footer h3{
   padding-right: 10px;
   padding-left: 10px;
 }
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+  position: absolute;
+  left: -20%;
+  background-color: #38B6AB;
+}
+
+#ind1 {
+  bottom: 24rem;
+}
+
+#ind2 {
+  bottom: 26rem;
+}
+
+#ind3 {
+  bottom: 28rem;
+}
