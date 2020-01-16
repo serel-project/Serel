@@ -121,3 +121,12 @@ footer h3{
 #ind3 {
   bottom: 24rem;
 }
+#navbarToggleExternalContent {
+  position: absolute;
+  right: 22%;
+  background-color: #38B6AB;
+  color: #fff;
+}
+#menuab {
+  list-style: none;
+}
