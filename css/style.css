@@ -22,6 +22,7 @@ footer h3{
 }
 
 .footer-bar{
+<<<<<<< HEAD
     width: 100%;
     height: 80px;
     background-color: #0C2E41;
@@ -38,6 +39,21 @@ footer h3{
     margin: 0 auto;
     align-items: center;
    
+=======
+  width: 100%;
+  height: 80px;
+  background-color: #0C2E41;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-barr-content{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+>>>>>>> master
 }
 
 .footer-barr-content p{
@@ -51,6 +67,7 @@ footer h3{
     margin-right: 15px;;
 }
 
+<<<<<<< HEAD
 .group-end{
     display: flex;
     align-items: flex-start;
@@ -69,3 +86,35 @@ footer h3{
  }
 /*FIM FOOTER*/
 
+=======
+#Banner_principal {
+  background-image: url("../assets/img/BannerPrincipal.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 107%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  color: #38B6AB;
+}
+
+#btn_menu {
+  border: none!important;
+}
+
+#btn_acesso {
+  background-color: #38B6AB;
+  border-radius: 0px 0px 10px 10px;
+  float: right;
+  margin-right: 20%;
+  border: none;
+  color: #fff;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+>>>>>>> master
