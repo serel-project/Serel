@@ -181,9 +181,14 @@ footer h3{
 
 .quemP {
   background-color: #fff;
+  font-size: 15px;
 }
 
 #quemH1 {
   text-align: center;
+  color: #38B6AB;
+}
+
+.quemFaz {
   color: #38B6AB;
 }
