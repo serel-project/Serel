@@ -192,3 +192,8 @@ footer h3{
 .quemFaz {
   color: #38B6AB;
 }
+
+.border1 {
+  border-bottom: solid 2px #38B6AB;
+  margin-bottom: 2px;
+}
