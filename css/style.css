@@ -226,3 +226,121 @@ footer h3{
   display: flex;
   justify-content: center;
 }
+
+.margin-top {
+  margin-top: 6rem;
+}
+
+.back-fazemos {
+  background-image: url(c:/Serel/assets/img/back-fazemos.jpg);
+}
+
+#carouselExampleInterval {
+  margin-top: -4rem;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.carousel-item h3 {
+  color: #38B6AB;
+}
+
+.carousel-item p {
+  color: #005077;
+}
+
+.carousel-text {
+  padding: 2rem;
+}
+
+.carousel-control-prev {
+  left: -3rem;
+}
+
+.carousel-control-next {
+  right: -3rem;
+}
+
+.fazemos-text h1 {
+  color: #38B6AB;
+}
+
+.fazemos-text p {
+  color: #fff;
+}
+
+.fazemos-text {
+  margin: auto;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(c:/Serel/assets/img/prev.svg);
+  background-size: cover;
+  height: 3rem;
+}
+
+.carousel-control-next-icon {
+  background-image: url(c:/Serel/assets/img/next.svg);
+  background-size: cover;
+  height: 3rem;
+}
+
+.hover img {
+  margin: 4rem;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.capa {
+  position: relative;
+  padding: 1rem;
+  margin: 2rem;
+  width: 270px;
+}
+.capa:hover .hover{
+  display: table;
+}
+.hover {
+  background: rgba(0, 80, 119, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    display: none;
+}
+
+.hover p{
+  color: #fff!important;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 600;
+}
+
+.img-parceiros img {
+  width: 100%;
+}
+
+.sec-parceiros {
+  background-color: #E8E7EC;
+}
+
+.text-parceiros {
+  text-align: center;
+}
+
+.text-parceiros h1 {
+ color: #38B6AB;
+}
+
+.text-parceiros p {
+  color: #005077;
+ }
+
+ .parceiros {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
