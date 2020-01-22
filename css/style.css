@@ -345,6 +345,50 @@ footer h3{
   justify-content: center;
  }
 
- .slider {
-  
- }
+.teclado {
+  width: 100%;
+}
+
+.div-conheca{
+  background-image: url(c:/Serel/assets/img/imgTeclado.jpg);
+  height: 227px;
+  background-size: contain;
+  text-align: center;
+}
+
+.conheca-melhor {
+  text-align: center;
+  padding-top: 50px;
+  color: #026A94;
+}
+
+.contato {
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 18px;
+  background-color: #38B6AB;
+  border: none;
+  color: #fff;
+  font-weight: 800;
+}
+
+.slick-track div {
+  display: flex!important;
+  height: auto;
+  justify-content: flex-start;
+}
+
+.text-content {
+  flex-direction: column;
+  margin: 0!important;
+}
+
+.slick-slide {
+  display: flex;
+  align-items: center;
+}
+
+.text-content div {
+  flex-direction: column;
+}
