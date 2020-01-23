@@ -5,11 +5,17 @@ $(document).ready(function(){
     centerPadding: '400px',
     slidesToShow: 1,
     adaptiveHeight: true,
-    arrows: false,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    accessibility: true,
+    prevArrow: '<span class="prevarrow"><img src="c:/Serel/assets/img/prev.svg"></span>',
+    nextArrow: '<span class="nextarrow"><img src="c:/Serel/assets/img/next.svg"></span>',
+    appendArrows: $('.arrow'),
     responsive: [
       {
         breakpoint: 1400,
-        arrows: false,
+        arrows: true,
         settings: {
           centerMode: true,
           centerPadding: '150px',
@@ -19,7 +25,7 @@ $(document).ready(function(){
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: '200px',
           slidesToShow: 1

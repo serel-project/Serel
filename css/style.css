@@ -411,7 +411,27 @@ footer h3{
   color: #38B6AB;
 }
 
+.sec-slider h6 {
+  margin-bottom: 30px;
+}
+
 .sec-center {
   background-color: #0C2E41;
   color: #fff;
+}
+.arrow{
+  display: flex;
+  justify-content: center;
+}
+
+.prevarrow img {
+  width: 13px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.nextarrow img {
+  width: 13px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
