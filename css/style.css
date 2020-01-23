@@ -388,6 +388,11 @@ footer h3{
   align-items: center;
   margin-right: 20px;
   margin-left: 20px;
+  opacity: 50%;
+}
+
+.slick-active {
+  opacity: 100%!important;
 }
 
 .text-content div {
