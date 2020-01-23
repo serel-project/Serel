@@ -385,10 +385,28 @@ footer h3{
 }
 
 .slick-slide {
-  display: flex;
   align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .text-content div {
   flex-direction: column;
+}
+
+.text-content div p {
+  margin-top: 30px;
+}
+
+.sec-slider {
+  text-align: center;
+}
+
+.sec-slider h1 {
+  color: #38B6AB;
+}
+
+.sec-center {
+  background-color: #0C2E41;
+  color: #fff;
 }

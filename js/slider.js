@@ -8,11 +8,11 @@ $(document).ready(function(){
     arrows: false,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1400,
         arrows: false,
         settings: {
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '150px',
           slidesToShow: 1
         }
       },
@@ -21,7 +21,7 @@ $(document).ready(function(){
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '200px',
           slidesToShow: 1
         }
       }
