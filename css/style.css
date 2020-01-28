@@ -352,13 +352,13 @@ footer h3{
 .div-conheca{
   background-image: url(c:/Serel/assets/img/imgTeclado.jpg);
   height: 227px;
-  background-size: contain;
+  background-size: cover;
   text-align: center;
+  background-repeat: no-repeat;
 }
 
 .conheca-melhor {
   text-align: center;
-  padding-top: 50px;
   color: #026A94;
 }
 
@@ -371,6 +371,7 @@ footer h3{
   border: none;
   color: #fff;
   font-weight: 800;
+  margin-top: 30px;
 }
 
 .slick-track div {

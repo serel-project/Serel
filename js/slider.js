@@ -27,7 +27,7 @@ $(document).ready(function(){
         settings: {
           arrows: true,
           centerMode: true,
-          centerPadding: '200px',
+          centerPadding: '0px',
           slidesToShow: 1
         }
       }

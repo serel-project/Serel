@@ -18,18 +18,19 @@
         <script src="c:/Serel/assets/library/slick-1.8.1/slick/slick.min.js"></script>
         <script src="c:/Serel/js/slider.js"></script>
     </head>
+
     <body>
         <!---MENU DE NAVEGAÇÃO-->
         <header class="container">
             <div class="pos-f-t">
                 <button id="btn_acesso">Acesso restrito</button>
                 <nav class="navbar navbar-light col-12">
-                    <div>
+                    <div class="col-9">
                         <a class="navbar-brand" href="#">
                             <img src="C:/Serel/assets/img/serel-logo.png" alt="" class="img-fluid"/>
                         </a>
                     </div>
-                    <div>
+                    <div class="col-3">
                         <button class="navbar-toggler" id="btn_menu" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="menu">MENU</span>
                             <span class="navbar-toggler-icon"></span>
@@ -49,201 +50,209 @@
             </div>
         </header>
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" id="ind1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1" id="ind2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2" id="ind3"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="C:/Serel/assets/img/BannerPrincipal.jpg">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="C:/Serel/assets/img/BannerPrincipal.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="C:/Serel/assets/img/BannerPrincipal.jpg" alt="Third slide">
-                </div>
-            </div>
-        </div>
-
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-12 col-md-4"> <img src="c:/Serel/assets/img/desenvolvimentomobile.svg"></div>
-                <div class="col-12 col-md-4"> <img src="c:/Serel/assets/img/SAS.svg"></div>
-                <div class="col-12 col-md-4"> <img src="c:/Serel/assets/img/planoinstituido.svg"></div>
-            </div>
-        </div>
-    
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 quemSomos">
-                    <img src="c:/Serel/assets/img/quemSomos.jpg">
-                </div>
-                <div class="col-md-8">
-                    <h1 id="quemH1">Quem somos</h1>
-                    <p class="quemP">Em junho de 1989 nascemos para desenvolver Sistemas especializados em Gestão e Controle de Fundos de           Pensão. Desde então conquistamos o reconhecimento da comunidade de Fundos de Pensão, graças ao profissionalismo da          nossa equipe, uma estreita interação com os clientes e, sobretudo, a permanente evolução dos produtos desenvolvidos.
-                        <br><br>
-                        De forma prática, estes são reflexos de um compromisso nosso: construir soluções exclusivas para cada entidade. Assim, pensamos, produzimos, testamos e implantamos!
-                    </p>
+        <section id="carrousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" id="ind1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" id="ind2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" id="ind3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="C:/Serel/assets/img/BannerPrincipal.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="C:/Serel/assets/img/BannerPrincipal.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="C:/Serel/assets/img/BannerPrincipal.jpg" alt="Third slide">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <div class="mt-5 container">
+        </section>
+            
+        <section id="servicos">
+            <div class="container mt-5">
                 <div class="row">
+                    <div class="col-12 col-md-4"> <img class="img-fluid" src="c:/Serel/assets/img/desenvolvimentomobile.svg"></div>
+                    <div class="col-12 col-md-4"> <img class="img-fluid" src="c:/Serel/assets/img/SAS.svg"></div>
+                    <div class="col-12 col-md-4"> <img class="img-fluid" src="c:/Serel/assets/img/planoinstituido.svg"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quem-somos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 quemSomos">
+                        <img class="img-fluid" src="c:/Serel/assets/img/quemSomos.jpg">
+                    </div>
+                    <div class="col-md-8">
+                        <h1 id="quemH1">Quem somos</h1>
+                        <p class="quemP">Em junho de 1989 nascemos para desenvolver Sistemas especializados em Gestão e Controle de Fundos de           Pensão. Desde então conquistamos o reconhecimento da comunidade de Fundos de Pensão, graças ao profissionalismo da          nossa equipe, uma estreita interação com os clientes e, sobretudo, a permanente evolução dos produtos desenvolvidos.
+                            <br><br>
+                            De forma prática, estes são reflexos de um compromisso nosso: construir soluções exclusivas para cada entidade. Assim, pensamos, produzimos, testamos e implantamos!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quem-faz">
+            <div>
+                <div class="mt-5 container">
+                    <div class="row">
                         <h1 class="col-md-12 quemFaz">Quem faz</h1>
                         <p class="col-md-12 quemFaz2">Mais importante que soluções tecnologias, são as mentes</br> que pensam e concebem nossas grandes soluções.</p>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="background-quemFaz pb-5">
+                <div class="quem-faz">
+                    <div class="img-quem"><img class="img-quem1" src="c:/Serel/assets/img/sócio1.svg"><p><span>Cleyton Domingues</span>Sócio</p></div>
+                    <div class="img-quem"><img class="img-quem2" src="c:/Serel/assets/img/sócio2.svg"><p><span>Fred Esteves</span>Sócio</p></div>
+                    <div class="img-quem"><img class="img-quem1" src="c:/Serel/assets/img/sócio3.svg"><p><span>Cleyton Domingues</span>Sócio</p></div>
+                    <div class="img-quem"><img class="img-quem2" src="c:/Serel/assets/img/sócio4.svg"><p><span>Alberto Caneda</span>Sócio</p></div>
+                    <div class="img-quem"><img class="img-quem1" src="c:/Serel/assets/img/sócio5.svg"><p><span>Fred Esteves</span>Sócio</p></div>
+                    <div class="img-quem"><img class="img-quem3" src="c:/Serel/assets/img/sócio6.svg"><p><span>Cleyton Domingues</span>Sócio</p></div>
+                </div>
+            </div> 
+        </section>
 
-        <div class="background-quemFaz pb-5">
-            <div class="quem-faz">
-                <div class="img-quem"><img class="img-quem1" src="c:/Serel/assets/img/sócio1.svg"><p><span>Cleyton Domingues</span>Sócio</p></div>
-                <div class="img-quem"><img class="img-quem2" src="c:/Serel/assets/img/sócio2.svg"><p><span>Fred Esteves</span>Sócio</p></div>
-                <div class="img-quem"><img class="img-quem1" src="c:/Serel/assets/img/sócio3.svg"><p><span>Cleyton Domingues</span>Sócio</p></div>
-                <div class="img-quem"><img class="img-quem2" src="c:/Serel/assets/img/sócio4.svg"><p><span>Alberto Caneda</span>Sócio</p></div>
-                <div class="img-quem"><img class="img-quem1" src="c:/Serel/assets/img/sócio5.svg"><p><span>Fred Esteves</span>Sócio</p></div>
-                <div class="img-quem"><img class="img-quem3" src="c:/Serel/assets/img/sócio6.svg"><p><span>Cleyton Domingues</span>Sócio</p></div>
-            </div>
-        </div> 
-</div> 
-        </div> 
-        
-        <div class="back-fazemos">
-            <div class="container margin-top pb-5">
-                <div class="row">
-                    <div class="col-md-6 fazemos-text">
-                        <h1>O que fazemos</h1>
-                        <p>Para acompanhar a constante mudança tanto de tecnologias de informação quanto do aparato 
-            <p>Para acompanhar a constante mudança tanto de tecnologias de informação quanto do aparato 
-                        <p>Para acompanhar a constante mudança tanto de tecnologias de informação quanto do aparato 
-                        regulatório da atividade de Previdência Complementar investimos continuamente em equipamentos, softwares e capacitação de colaboradores.
-                        Como resultado deste esforço orgulhamo-nos do atendimento a diversos Fundos, alguns deles há mais de 25 anos.</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-5">
-                        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-interval="10000">
-                                    <img src="c:/Serel/assets/img/slider-oqueFazemos.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-text">
-                                        <h3>Sistema de gestão em EFPC’S </h3>
-                                        <h6>Gestão Previdenciária</h6>
-                                        <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, 
-                        <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, 
-                                        <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, 
-                                            lançamentos em folha de pagamento, cadastro e remoção de participantes, controle das arrecadações por perfis, entre outras características únicas.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-interval="2000">
-                                    <img src="c:/Serel/assets/img/slider-oqueFazemos.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-text">
-                                        <h3>Sistema de gestão em EFPC’S </h3>
-                                        <h6>Gestão Previdenciária</h6>
-                                        <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, 
-                        <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, 
-                                        <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, 
-                                            lançamentos em folha de pagamento, cadastro e remoção de participantes, controle das arrecadações por perfis, entre outras características únicas.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="c:/Serel/assets/img/slider-oqueFazemos.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-text">
+        <section id="o-que-fazemos">
+            <div class="back-fazemos">
+                <div class="container margin-top pb-5">
+                    <div class="row">
+                        <div class="col-md-6 fazemos-text">
+                            <h1>O que fazemos</h1>
+                            <p>Para acompanhar a constante mudança tanto de tecnologias de informação quanto do aparato regulatório da atividade de Previdência Complementar investimos continuamente em equipamentos, softwares e capacitação de colaboradores. Como resultado deste esforço orgulhamo-nos do atendimento a diversos Fundos, alguns deles há mais de 25 anos.
+                            </p>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-5">
+                            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-interval="10000">
+                                        <img src="c:/Serel/assets/img/slider-oqueFazemos.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-text">
                                             <h3>Sistema de gestão em EFPC’S </h3>
                                             <h6>Gestão Previdenciária</h6>
-                                            <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, 
-                        <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, 
-                                            <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, 
-                                                lançamentos em folha de pagamento, cadastro e remoção de participantes, controle das arrecadações por perfis, entre outras características únicas.
+                                            <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, lançamentos em folha de pagamento, cadastro e remoção de participantes, controle das arrecadações por perfis, entre outras características únicas.
                                             </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-interval="2000">
+                                        <img src="c:/Serel/assets/img/slider-oqueFazemos.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-text">
+                                            <h3>Sistema de gestão em EFPC’S </h3>
+                                            <h6>Gestão Previdenciária</h6>
+                                            <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, lançamentos em folha de pagamento, cadastro e remoção de participantes, controle das arrecadações por perfis, entre outras características únicas.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="c:/Serel/assets/img/slider-oqueFazemos.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-text">
+                                            <h3>Sistema de gestão em EFPC’S </h3>
+                                            <h6>Gestão Previdenciária</h6>
+                                            <p>Um sistema de gerenciamento e controle completo onde é possível realizar simulações, cálculos e controles de saldos, lançamentos em folha de pagamento, cadastro e remoção de participantes, controle das arrecadações por perfis, entre outras características únicas.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
+                                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="row sec-parceiros pt-5">
-            <div class="col-md-4 img-parceiros">
-                <img src="c:/Serel/assets/img/img-parcerias.png">
-            </div>
-            <div class="col-md-8 text-parceiros">
-                <h1>Parcerias</h1>
-                <p>Construir sólidas parcerias com grandes player do mercado</br>tecnológico e financeiro. </p>
-                <div class="parceiros">
-                    <div class="capa"><img src="c:/Serel/assets/img/totvs.svg"><div class="hover"><p>Representante</p></div></div >
-                    <div class="capa"><img src="c:/Serel/assets/img/byDoor.svg"><div class="hover"><p>Representante</p></div></div>
-                    <div class="capa"><img src="c:/Serel/assets/img/totvs.svg"><div class="hover"><p>Representante</p></div></div>
-                    <div class="capa"><img src="c:/Serel/assets/img/byDoor.svg"><div class="hover"><p>Representante</p></div></div>
-                    <div class="capa"><img src="c:/Serel/assets/img/totvs.svg"><div class="hover"><p>Representante</p></div></div>
-                    <div class="capa"><img src="c:/Serel/assets/img/byDoor.svg"><div class="hover"><p>Representante</p></div></div>
+        </section>
+
+        <section id="parcerias">
+            <div class="row sec-parceiros pt-5">
+                <div class="col-md-4 img-parceiros">
+                    <img src="c:/Serel/assets/img/img-parcerias.png">
                 </div>
-            </div>
-        </div>
-        
-        <div class="sec-center pb-5">
-            <div  class="sec-slider pt-5">
-                <h1>Quem conhece acredita “Tradição”!</h1>
-                <h6>Nosso compromisso é entregar qualidade para nossos clientes</h6>
-            </div>
-            <div class="center">
-                <div>
-                    <img src="c:/Serel/assets/img/Ult-slider-1.jpg">
-                    <div class="row text-content">
-                        <div class="col-md-8">
-                            <h6>Gabriel Zucca</h6>
-                            <h8>CMO - Empresa XYZ</h8>
-                            <p>Quanto conheci a Serel, percebi que era uma empresa que se preocupava em resolver o problema cliente, com capacidade técnica e atendimento consultivo diferente das demais empresas do mercado que tive oportunidade de conhecer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <img src="c:/Serel/assets/img/Ult-slider-1.jpg">
-                    <div class="row text-content">
-                        <div class="col-md-8">
-                            <h6>Gabriel Zucca</h6>
-                            <h8>CMO - Empresa XYZ</h8>
-                            <p>Quanto conheci a Serel, percebi que era uma empresa que se preocupava em resolver o problema cliente, com capacidade técnica e atendimento consultivo diferente das demais empresas do mercado que tive oportunidade de conhecer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <img src="c:/Serel/assets/img/Ult-slider-1.jpg">
-                    <div class="row text-content">
-                        <div class="col-md-8">
-                            <h6>Gabriel Zucca</h6>
-                            <h8>CMO - Empresa XYZ</h8>
-                            <p>Quanto conheci a Serel, percebi que era uma empresa que se preocupava em resolver o problema cliente, com capacidade técnica e atendimento consultivo diferente das demais empresas do mercado que tive oportunidade de conhecer.</p>
-                        </div>
+                <div class="col-md-8 text-parceiros">
+                    <h1>Parcerias</h1>
+                    <p>Construir sólidas parcerias com grandes player do mercado</br>tecnológico e financeiro. </p>
+                    <div class="parceiros">
+                        <div class="capa"><img src="c:/Serel/assets/img/totvs.svg"><div class="hover"><p>Representante</p></div></div >
+                        <div class="capa"><img src="c:/Serel/assets/img/byDoor.svg"><div class="hover"><p>Representante</p></div></div>
+                        <div class="capa"><img src="c:/Serel/assets/img/totvs.svg"><div class="hover"><p>Representante</p></div></div>
+                        <div class="capa"><img src="c:/Serel/assets/img/byDoor.svg"><div class="hover"><p>Representante</p></div></div>
+                        <div class="capa"><img src="c:/Serel/assets/img/totvs.svg"><div class="hover"><p>Representante</p></div></div>
+                        <div class="capa"><img src="c:/Serel/assets/img/byDoor.svg"><div class="hover"><p>Representante</p></div></div>
                     </div>
                 </div>
             </div>
-            <div class="arrow">
+        </section>
+            
+        <section id="quem-conhece">
+            <div class="sec-center pb-5">
+                <div  class="sec-slider pt-5">
+                    <h1>Quem conhece acredita “Tradição”!</h1>
+                    <h6>Nosso compromisso é entregar qualidade para nossos clientes</h6>
+                </div>
+                <div class="center">
+                    <div class="box-quem-conhece">
+                        <div>
+                            <img src="c:/Serel/assets/img/Ult-slider-1.jpg">
+                        </div>
+                        <div class="row text-content col-12">
+                            <div class="col-md-8">
+                                <h6>Gabriel Zucca</h6>
+                                <h8>CMO - Empresa XYZ</h8>
+                                <p>Quanto conheci a Serel, percebi que era uma empresa que se preocupava em resolver o problema cliente, com capacidade técnica e atendimento consultivo diferente das demais empresas do mercado que tive oportunidade de conhecer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-quem-conhece">
+                        <div>
+                            <img src="c:/Serel/assets/img/Ult-slider-1.jpg">
+                        </div>
+                        <div class="row text-content col-12">
+                            <div class="col-md-8">
+                                <h6>Gabriel Zucca</h6>
+                                <h8>CMO - Empresa XYZ</h8>
+                                <p>Quanto conheci a Serel, percebi que era uma empresa que se preocupava em resolver o problema cliente, com capacidade técnica e atendimento consultivo diferente das demais empresas do mercado que tive oportunidade de conhecer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-quem-conhece">
+                        <div>
+                            <img src="c:/Serel/assets/img/Ult-slider-1.jpg">
+                        </div>
+                        <div class="row text-content col-12">
+                            <div class="col-md-8">
+                                <h6>Gabriel Zucca</h6>
+                                <h8>CMO - Empresa XYZ</h8>
+                                <p>Quanto conheci a Serel, percebi que era uma empresa que se preocupava em resolver o problema cliente, com capacidade técnica e atendimento consultivo diferente das demais empresas do mercado que tive oportunidade de conhecer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow">
+                </div>
             </div>
-        </div>
+        </section>
         
-        <div class="container mt-5 mb-5">
-            <div class="div-conheca">
-                <h1 class="conheca-melhor">Conheça mais e melhor a Serel</h1>
-                <button class="contato">CONTATO</button>
-            </div>
-        </div>
-        
+        <section id="conheca-mais">
+          
+                <div class="div-conheca container pt-5 pb-5 mt-5 mb-5">
+                    <h1 class="conheca-melhor">Conheça mais e melhor a Serel</h1>
+                    <button class="contato">CONTATO</button>
+                </div>
+            
+        </section>
+
         <footer>
             <div class="container mt-5">
                <div class="row">
@@ -258,8 +267,6 @@
                             
                         <div class="group-end">
                             <img class="icons-footer" src="C:/Serel/assets/img/icon-phone.svg" alt="">
-                            <p>(13) 3202-5858</p>      
-                    <p>(13) 3202-5858</p>      
                             <p>(13) 3202-5858</p>      
                         </div>
                             
@@ -276,14 +283,10 @@
                         <div class="group-end">
                             <img class="icons-footer" src="C:/Serel/assets/img/icon-phone.svg" alt="">
                             <p>(61) 3225-7758 / 3225-9097</p>
-                        <p>(61) 3225-7758 / 3225-9097</p>      
-                            <p>(61) 3225-7758 / 3225-9097</p>
                         </div>
                     </div>
                             
                     <div class="col-md-6">
-                        <h3>Acompanhe Também</h3>                
-                    <h3>Acompanhe Também</h3>                
                         <h3>Acompanhe Também</h3>                
                         <div class="icons-social col-md-6">
                             <img class="" src="C:/Serel/assets/img/icon-insta.svg" alt="">
