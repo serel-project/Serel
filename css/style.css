@@ -6,6 +6,40 @@
     
 }
 
+#carrousel{
+  padding-bottom: 4rem;
+}
+
+#servicos{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#quem-somos{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#quem-faz{
+
+}
+
+#o-que-fazemos{
+
+}
+
+#parcerias{
+
+}
+
+#quem-conhece{
+
+}
+
+#conheca-mais{
+
+}
+
 /*FOOTER*/
 footer{
     background-image: url("../assets/img/bg-footer.svg");
@@ -124,6 +158,11 @@ footer h3{
   border: none!important;
 }
 
+.div-menu{
+  display: flex;
+  justify-content: flex-end;
+}
+
 #btn_acesso {
   background-color: #38B6AB;
   border-radius: 0px 0px 10px 10px;
@@ -176,25 +215,42 @@ footer h3{
 }
 
 .quemSomos img {
-  width: 410px;
+  width: 300px;
+}
+
+
+.quemSomos1{
+  position: relative;
+  left: 0;
+}
+
+.quemSomos2{
+  position: relative;
+  right: 0;
 }
 
 .quemP {
   background-color: #fff;
-  font-size: 15px;
+  font-size: 16px;
+  color: #005077;
 }
 
 #quemH1 {
-  text-align: center;
+  text-align: left;
   color: #38B6AB;
+  margin-bottom: 25px;
+  font-size: 40px;
 }
 
 .quemFaz {
   color: #38B6AB;
+  font-size: 40px;
 }
 
 .quemFaz2 {
   margin-bottom: 0;
+  font-size: 16px;
+  color: #005077;
 }
 
 .quem-faz {
@@ -261,12 +317,20 @@ footer h3{
   right: -3rem;
 }
 
+.box-serv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .fazemos-text h1 {
   color: #38B6AB;
+  font-size: 40px;
 }
 
 .fazemos-text p {
   color: #fff;
+  font-size: 16px;
 }
 
 .fazemos-text {
@@ -331,10 +395,12 @@ footer h3{
 
 .text-parceiros h1 {
  color: #38B6AB;
+ font-size: 40px;
 }
 
 .text-parceiros p {
   color: #005077;
+  font-size: 16px;
  }
 
  .parceiros {
@@ -410,10 +476,12 @@ footer h3{
 
 .sec-slider h1 {
   color: #38B6AB;
+  font-size: 40px;
 }
 
 .sec-slider h6 {
   margin-bottom: 30px;
+  font-size: 16px;
 }
 
 .sec-center {
@@ -443,5 +511,5 @@ footer h3{
   flex-direction: column;
   align-items: center;
   color: #005077;
-  font-size: 20px;
+  font-size: 33px;
 }
