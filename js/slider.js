@@ -7,7 +7,7 @@ $(document).ready(function(){
     adaptiveHeight: true,
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 20000,
     accessibility: true,
     prevArrow: '<span class="prevarrow"><img src="c:/Serel/assets/img/prev.svg"></span>',
     nextArrow: '<span class="nextarrow"><img src="c:/Serel/assets/img/next.svg"></span>',
