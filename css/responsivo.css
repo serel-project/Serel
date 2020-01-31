@@ -5,6 +5,14 @@
         padding-right: 0px;
     }
 
+    .text-parceiros p{
+        margin-bottom: 0px;
+    }
+
+    .text-parceiros h1 {
+        margin-top: 10px;
+    }
+
     .img-parceiros{
         padding-right: 0px;
     }
@@ -12,6 +20,7 @@
     .sec-parceiros{
         padding-right: 0px;
         margin-right: 0px;
+        padding-bottom: 30px;
     }
     
     .slick-list{
@@ -31,10 +40,97 @@
         left: 0rem;
     }
 
+    #carrousel{
+        padding-bottom: 0;;
+    }
+
+    #servicos{
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+
+    .box-serv{
+        padding-bottom: 2rem;
+    }
+
+    #quem-somos{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .quemSomos1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .img-somos {
+        width: 100%;
+    }
+
+    .quemP {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #quemH1 {    
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #quem-faz{
+        margin-top: 1rem;
+    }
+
+    .quemFaz {
+        text-align: center;
+    }
+
+    .quemFaz2 {
+        margin-bottom: 19px;
+        text-align: center;
+    }
+
+    .fazemos-text p {
+        text-align: center;
+        margin-bottom: 6rem;
+        margin-top: 1rem;
+    }
+
+    .fazemos-text{
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .sec-slider{
+        padding-top: 2rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .capa{
+        margin: 0px;
+    }
+
+    .text-content {
+        border-radius: 0px 0px 15px 15px;
+        border-right: solid 1px #026A94;
+        border-bottom: solid 1px #026A94;
+        border-top: solid 0px #026A94;
+        border-left: solid 1px #026A94;
+    }
+
+    .text-content h6{
+        margin-top: 10px;
+    }
+
+    .slick-slide img {
+        width: 100%;
+    }
+
     .div-conheca {
         height: auto;
         background-size: cover;
-        background-position: right;
+        background-position: center;
         background-repeat: no-repeat;
         margin-top: 0px!important;
         margin-bottom: 0px!important;
@@ -70,16 +166,267 @@
         flex-wrap: wrap;
     }
 
+    .icons-social img {
+        margin-right: 5px;
+    }
+
     #btn_acesso {
         margin-right: 0;
     }
+
+    .fc2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .footer-barr-content {
+        justify-content: center;     
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-bar{
+        height: auto;
+    }
+
+    footer h3{
+        text-align: center;
+    }
+
+    .sec-center {
+        background-color: #0C2E41;
+        color: #fff;
+        padding-bottom: 3rem;
+    }
+
+    .background-quemFaz{
+        padding-bottom: 0px!important;
+    }
+
+    .carousel-indicators {
+       bottom: -50px;
+       margin-left: 0;
+       margin-right: 0;
+    }
+
+    .carousel-indicators li{
+        position: initial;     
+     }
+    
 }
 
 /*==========================================================================================================================*/
 @media(min-width: 577px) and (max-width: 768px){
-    .img-quem {
-        width: 270px;
+    .text-parceiros{
+        padding-right: 0px;
     }
+
+    .text-parceiros p{
+        margin-bottom: 0px;
+    }
+
+    .text-parceiros h1 {
+        margin-top: 10px;
+    }
+
+    .img-parceiros{
+        padding-right: 0px;
+    }
+
+    .sec-parceiros{
+        padding-right: 0px;
+        margin-right: 0px;
+        padding-bottom: 30px;
+    }
+    
+    .slick-list{
+        padding: 0px;
+    }
+
+    .box-quem-conhece{
+        display: flex!important;
+        flex-direction: column;
+    }
+
+    .carousel-control-next {
+        right: 0rem;
+    }
+
+    .carousel-control-prev {
+        left: 0rem;
+    }
+
+    #carrousel{
+        padding-bottom: 0;;
+    }
+
+    #servicos{
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+
+    .box-serv{
+        padding-bottom: 2rem;
+    }
+
+    #quem-somos{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .quemSomos1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .img-somos {
+        width: 100%;
+    }
+
+    .quemP {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #quemH1 {    
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #quem-faz{
+        margin-top: 1rem;
+    }
+
+    .quemFaz {
+        text-align: center;
+    }
+
+    .quemFaz2 {
+        margin-bottom: 19px;
+        text-align: center;
+    }
+
+    .fazemos-text p {
+        text-align: center;
+        margin-bottom: 6rem;
+        margin-top: 1rem;
+    }
+
+    .fazemos-text{
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .sec-slider{
+        padding-top: 2rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .capa{
+        margin: 0px;
+    }
+
+    .text-content {
+        border-radius: 0px 0px 15px 15px;
+        border-right: solid 1px #026A94;
+        border-bottom: solid 1px #026A94;
+        border-top: solid 0px #026A94;
+        border-left: solid 1px #026A94;
+    }
+
+    .text-content h6{
+        margin-top: 10px;
+    }
+
+    .slick-slide img {
+        width: 100%;
+    }
+
+    .div-conheca {
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+    }
+
+    #btn_menu{
+        padding: 0px;
+    }
+
+    .navbar-brand{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbar{
+        padding: 1.5rem 0rem;
+    }
+
+    #navbarToggleExternalContent {
+        position: absolute;
+        right: 0;
+        left:0;
+        border: solid 2px #38B6AB;
+        border-radius: 10px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .pos-f-t{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .icons-social img {
+        margin-right: 5px;
+    }
+
+    #btn_acesso {
+        margin-right: 0;
+    }
+
+    .fc2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .footer-barr-content {
+        justify-content: center;     
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-bar{
+        height: auto;
+    }
+
+    footer h3{
+        text-align: center;
+    }
+
+    .sec-center {
+        background-color: #0C2E41;
+        color: #fff;
+        padding-bottom: 3rem;
+    }
+
+    .background-quemFaz{
+        padding-bottom: 0px!important;
+    }
+
 }
 
 /*==========================================================================================================================*/
@@ -89,24 +436,29 @@
 
 /*==========================================================================================================================*/
 @media(min-width: 993px) and (max-width: 1400px){
-	.parceiros img {
-        margin: 0rem;
+    .img-quem1{
+        padding-top: 60px;
     }
+    .img-quem2{
+        padding-top: 120px;
+    }
+    .img-quem3{
+        padding-top: 0px;
+    }
+
 }
 
 /*==========================================================================================================================*/
 @media(min-width: 1401px) {
-    
-}
-/*==========================================================================================================================*/
-@media(min-width: 1114px) {
-    .img-quem1 {
+    .img-quem1{
         padding-top: 60px;
-      }
-      .img-quem2{
-          padding-top: 120px;
-      }
-      .img-quem3 {
+    }
+    .img-quem2{
+        padding-top: 120px;
+    }
+    .img-quem3{
         padding-top: 0px;
-      }
-  }
+    }
+}
+
+/*==========================================================================================================================*/

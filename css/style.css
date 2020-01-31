@@ -1,3 +1,8 @@
+hr {
+  border-top: 1px solid #38B6AB;
+  width: 80%;
+}
+
 #Banner_principal {
     background-image: url("../assets/img/Grupo\ 155.svg");
     background-size: cover;
@@ -21,7 +26,7 @@
 }
 
 #quem-faz{
-
+  margin-top: 5rem;
 }
 
 #o-que-fazemos{
@@ -50,10 +55,12 @@ footer{
     font-family: Source Sans Pro;
     color: #fff;
     display: flex;
+    flex-wrap: wrap;
 }
 
 footer h3{
     font-weight: 500;
+    margin-bottom: 2rem;;
 }
 
 .footer-bar{
@@ -62,8 +69,11 @@ footer h3{
     background-color: #0C2E41;
     display: flex;
     justify-content: center;
-    position: absolute;
     bottom: 0;
+}
+
+.geb{
+  margin-top: 28px;
 }
 
 .footer-barr-content{
@@ -108,6 +118,10 @@ footer h3{
     justify-content: space-around;
  }
 
+ .icons-social img{
+    margin-right: 40px;   
+ }
+
  .group-atend{
     display: flex;
     align-items: center;
@@ -118,6 +132,7 @@ footer h3{
     padding-top: 10px;
     margin-top: 35px;
     margin-bottom: 35px;
+    border-radius: 10px;
  }
 
  .group-atend img{
@@ -487,6 +502,7 @@ footer h3{
 
 .sec-slider {
   text-align: center;
+  padding-top: 5rem;
 }
 
 .sec-slider h1 {
@@ -502,7 +518,8 @@ footer h3{
 .sec-center {
   background-color: #0C2E41;
   color: #fff;
-}
+ }
+
 .arrow{
   display: flex;
   justify-content: center;
